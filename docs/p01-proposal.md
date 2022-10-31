@@ -50,7 +50,7 @@ Movies are one the major forms of digital entertainment. From script to screen, 
 
 ### Project Framing
 
-<img src="data/projectframing2.jpg" alt="project framing" />
+![Project Framing](images\projectframing2.jpg)
 
 ### Direct and Indirect Stakeholders
 
