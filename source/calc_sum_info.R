@@ -1,12 +1,7 @@
 library("tidyverse")
 
-netflix_stats <- read_csv("Documents/info201/projects/
-                          project-group-5-section-ah/data/
-                          netflix-rotten-tomatoes-metacritic-imdbcsv.csv")
+top_500_movies <- read_csv("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/data/top-500-movies.csv")
 
-revenue <- read_csv("Documents/info201/projects/
-                    project-group-5-section-ah/data/
-                    statistic_id187069_box-office-revenue-in-the-us-and-canada-1980-2021.csv")
+revenue <- read_csv("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/data/statistic_id187069_box-office-revenue-in-the-us-and-canada-1980-2021.csv")
 
-top_500_movies <- read_csv("Documents/info201/projects/
-                           project-group-5-section-ah/data/top-500-movies.csv")
+netflix_stats <- read_csv("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/data/netflix-rotten-tomatoes-metacritic-imdbcsv.csv")
