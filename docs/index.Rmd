@@ -1,7 +1,7 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "Movies, Money, and More"
+author: "Parker Huang, Hannah Yi, Clark Chin"
+date: "11/13/2022"
 output: html_document
 ---
 
