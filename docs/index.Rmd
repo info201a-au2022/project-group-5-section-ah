@@ -22,16 +22,22 @@ knitr::opts_chunk$set(echo = TRUE)
 # directory(..), down into source (/source), and 
 # then "source" an R file (data_access.R)
 source("../source/calc_sum_info.R")
-
 ```
+
 
 ### Example 2: Initialize a variable and then use it
 ```{r}
 # Example 1: This function was "sourced" above
-year_max_revenue
+msg <- year_max_revenue
+msg1 <- netflix_movie_number
+msg2 <- unique_genres
+msg3 <- highest_domestic_gross
+msg4 <- highest_opening_weekend
+msg5 <- highest_production_cost
+msg6 <- highest_imdb_score
 ```
 
-> `r msg` Hope you have a good day!! 
+> `r msg` `r msg1` `r msg2` `r msg3` `r msg4` `r msg5` `r msg6`
 
 ## ABOUT THIS FILE: 
 

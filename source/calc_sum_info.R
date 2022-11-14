@@ -8,11 +8,11 @@ netflix_stats <- read_csv("https://raw.githubusercontent.com/info201a-au2022/pro
 
 #number of movies in Netflix dataset
 netflix_movie_number <- nrow(netflix_stats)
-netflix_movie_number <- paste0("There are", netflix_movie_number, "movies in the Netflix dataset. ")
+netflix_movie_number <- paste0("There are ", netflix_movie_number, " movies in the Netflix dataset. ")
 
 #number of unique genre combinations in the Netflix dataset
 unique_genres <- length(unique(netflix_stats$Genre))
-unique_genres <- paste0("There are", unique_genres, "unique genre combinations in the Netflix dataset. ")
+unique_genres <- paste0("There are ", unique_genres, " unique genre combinations in the Netflix dataset. ")
 
 #year with max movie revenue in U.S. and Canada
 year_max_revenue <- revenue %>% 
