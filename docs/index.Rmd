@@ -65,3 +65,11 @@ plot(chart2)
 This chart expresses the relationship between the production cost of a given movie title and the actual Worldwide gross of said movie. This comparison is meant to describe the size of correlation between the amount a director decided to spend on a movie and how much that investment (or lack of investment) affected the overall profitability of said movie title. As we can see, the movie with the highest production cost is Avengers: Endgame, which is also the second most grossed movie. Additionally, the movie titled: Avatar, had a production budget/cost of only half that of Avengers: Endgame, but still managed to gross more money. This means that the worldwide gross of a movie may not be as tied to the production cost of a movie as we had initially thought.
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```
+
+```{r chart3, echo=FALSE}
+chart3
+```
+
+This chart allows users to explore which genres were the most abundant in the top 500 movies dataset. You can click into the different "bubbles" to reveal the specific genre and how many times it appears. Looking at the data, the adventure genre is the most popular followed by the action genre, which is unsurprising. This is followed by a large drop in number to drama, thriller, comedy, and five more genres. This data is important because it reveals which genres generally perform the best and worst. As you can see, the western genre does not have many movies in the top 500, so it's not a good choice if you were to make a movie.
