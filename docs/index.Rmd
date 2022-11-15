@@ -38,6 +38,10 @@ msg7 <- highest_opening_weekend
 
 > `r msg` `r msg1` `r msg2` `r msg3` `r msg4` `r msg5` `r msg6` `r msg7`
 
+```{r}
+dafaf
+```
+This table reveals how often a certain genre appears in the top 500 movies dataset. As seen from the table, adventure movies appeared the most at 213 movies with action at second with 202 movies. There is a sharp decline with the next largest genre being drama at only 26 movies.
 
 ```{r chart1, echo=FALSE}
 plot(chart1)
