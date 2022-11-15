@@ -28,7 +28,6 @@ source("../source/chart3.R")
 
 ```
 
-
 ### Example 2: Initialize a variable and then use it
 ```{r, echo = FALSE}
 # Example 1: This function was "sourced" above
@@ -44,6 +43,11 @@ msg7 <- highest_opening_weekend
 
 > `r msg` `r msg1` `r msg2` `r msg3` `r msg4` `r msg5` `r msg6` `r msg7`
 
+
+```{r chart1, echo=FALSE}
+plot(chart1)
+```
+The barplot was included to analyze the association between movie languages and IMDb Scores.This graph shows the top 10 languages that had the highest average IMDb movie ratings. We wanted to see if languages influenced the IMDb ratings and also discover the language with the highest average rating. There did not appear to be a correlation between language and movie rating as average IMDb Scores did not have drastic differences. However, it is notable that the language with the highest rating (Romanian), differs from what we expected (English). 
 
 ```{r chart2, echo=FALSE}
 plot(chart2)
