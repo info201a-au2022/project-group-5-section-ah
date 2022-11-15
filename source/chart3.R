@@ -1,3 +1,4 @@
+devtools::install_github("jeromefroe/circlepackeR")
 library(circlepackeR)         
 library(data.tree)
 
