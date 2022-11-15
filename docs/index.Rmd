@@ -15,15 +15,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * Please see Canvas for more details.
 
-## ACCESSING THE /source DIRECTORY
 ```{r include=FALSE}
+# ACCESSING THE /source DIRECTORY
 source("../source/calc_sum_info.R")
 source("../source/chart1.R")
 source("../source/chart2.R")
 source("../source/chart3.R")
 ```
 
-### Dynamic Paragraph
+## Dynamic Paragraph
 ```{r, echo = FALSE}
 # Example 1: This function was "sourced" above
 msg <- year_max_revenue
@@ -42,22 +42,15 @@ msg7 <- highest_opening_weekend
 ```{r chart1, echo=FALSE}
 plot(chart1)
 ```
+
 The barplot was included to analyze the association between movie languages and IMDb Scores.This graph shows the top 10 languages that had the highest average IMDb movie ratings. We wanted to see if languages influenced the IMDb ratings and also discover the language with the highest average rating. There did not appear to be a correlation between language and movie rating as average IMDb Scores did not have drastic differences. However, it is notable that the language with the highest rating (Romanian), differs from what we expected (English). 
+
 
 ```{r chart2, echo=FALSE}
 plot(chart2)
 ```
 
 This chart expresses the relationship between the production cost of a given movie title and the actual Worldwide gross of said movie. This comparison is meant to describe the size of correlation between the amount a director decided to spend on a movie and how much that investment (or lack of investment) affected the overall profitability of said movie title. As we can see, the movie with the highest production cost is Avengers: Endgame, which is also the second most grossed movie. Additionally, the movie titled: Avatar, had a production budget/cost of only half that of Avengers: Endgame, but still managed to gross more money. This means that the worldwide gross of a movie may not be as tied to the production cost of a movie as we had initially thought.
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-
-
-```{r, echo=FALSE}
-frequent_genre
-```
-
 
 
 ```{r chart3, echo=FALSE}
