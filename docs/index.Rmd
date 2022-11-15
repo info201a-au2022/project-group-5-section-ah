@@ -17,16 +17,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## ACCESSING THE /source DIRECTORY
 ### Example 1: Source some code and run a function
-```{r}
+```{r, echo = FALSE}
 # Example 1: Note relative path, which can be read: Up one
 # directory(..), down into source (/source), and 
 # then "source" an R file (data_access.R)
 source("../source/calc_sum_info.R")
+source("../source/chart1.R")
+source("../source/chart2.R")
+source("../source/chart3.R")
+
 ```
 
 
 ### Example 2: Initialize a variable and then use it
-```{r}
+```{r, echo = FALSE}
 # Example 1: This function was "sourced" above
 msg <- year_max_revenue
 msg1 <- netflix_movie_number
@@ -35,9 +39,10 @@ msg3 <- highest_domestic_gross
 msg4 <- highest_opening_weekend
 msg5 <- highest_production_cost
 msg6 <- highest_imdb_score
+msg7 <- highest_opening_weekend
 ```
 
-> `r msg` `r msg1` `r msg2` `r msg3` `r msg4` `r msg5` `r msg6`
+> `r msg` `r msg1` `r msg2` `r msg3` `r msg4` `r msg5` `r msg6` `r msg7`
 
 ## ABOUT THIS FILE: 
 
@@ -53,8 +58,10 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r chart2, echo=FALSE}
+plot(chart2)
 ```
+
+This chart expresses the relationship between the production cost of a given movie title and the actual Worldwide gross of said movie. This comparison is meant to describe the size of correlation between the amount a director decided to spend on a movie and how much that investment (or lack of investment) affected the overall profitability of said movie title. As we can see, the movie with the highest production cost is Avengers: Endgame, which is also the second most grossed movie. Additionally, the movie titled: Avatar, had a production budget/cost of only half that of Avengers: Endgame, but still managed to gross more money. This means that the worldwide gross of a movie may not be as tied to the production cost of a movie as we had initially thought.
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
