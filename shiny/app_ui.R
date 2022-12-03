@@ -1,13 +1,12 @@
 library(shiny)
+library(shinythemes)
 
 ui = tagList(
   shinythemes::themeSelector(),
   navbarPage(
     theme = "cerulean",  # <--- To use a theme, uncomment this
-    "shinythemes",
-    tabPanel("Navbar 1",
-             sidebarPanel(
-             ),
+    "Movies, Money, and More",
+    tabPanel("Page 1",
              mainPanel(
                tabsetPanel(
                  tabPanel("Visualization 1",
@@ -17,7 +16,25 @@ ui = tagList(
                )
              )
     ),
-    tabPanel("Navbar 2", "This panel is intentionally left blank"),
-    tabPanel("Navbar 3", "This panel is intentionally left blank")
+    tabPanel("Page 2",
+             mainPanel(
+               tabsetPanel(
+                 tabPanel("Visualization 2",
+                          h4("Table"),
+                          tableOutput("table"),
+                 )
+               )
+             )
+    ),
+    tabPanel("Page 3",
+             mainPanel(
+               tabsetPanel(
+                 tabPanel("Visualization 3",
+                          h4("Table"),
+                          tableOutput("table"),
+                 )
+               )
+             )
+    ),
   )
 )
