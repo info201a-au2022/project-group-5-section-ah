@@ -5,9 +5,9 @@ account: clak
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7805257
-bundleId: 6587499
+bundleId: 6587519
 url: https://clak.shinyapps.io/mmm_project3/
-when: 1670107296.37488
-lastSyncTime: 1670107296.3749
+when: 1670107767.46538
+lastSyncTime: 1670107767.46539
 asMultiple: FALSE
 asStatic: FALSE
