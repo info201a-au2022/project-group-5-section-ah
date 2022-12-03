@@ -1,0 +1,13 @@
+name: mmm_project3
+title: mmm_project3
+username:
+account: clak
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7805257
+bundleId: 6587499
+url: https://clak.shinyapps.io/mmm_project3/
+when: 1670107296.37488
+lastSyncTime: 1670107296.3749
+asMultiple: FALSE
+asStatic: FALSE
