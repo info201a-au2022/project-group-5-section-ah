@@ -2,8 +2,7 @@ devtools::install_github("jeromefroe/circlepackeR")
 library(circlepackeR)         
 library(data.tree)
 
-top.500.movies <- read.csv("C:/Users/parke/Documents/info201/projects/project-group-5-section-ah/data/top-500-movies.csv")
-top_500_movies <- top.500.movies
+top_500_movies <- read.csv("../data/top-500-movies.csv")
 
 genre_number <- sort(table(top_500_movies$genre), decreasing = TRUE)[1:10]
 
