@@ -10,3 +10,6 @@ server = function(input, output) {
     head(cars, 4)
   })
 }
+
+#load datasets
+top_500_movies <- read.csv("../data/top-500-movies.csv")

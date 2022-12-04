@@ -1,6 +1,9 @@
 # Load libraries so they are available
 library("shiny")
 library("shinythemes")
+devtools::install_github("jeromefroe/circlepackeR")
+library(circlepackeR)         
+library(data.tree)
 
 # Use source() to execute the `app_ui.R` and `app_server.R` files. These will
 # define the UI value and server function respectively.
