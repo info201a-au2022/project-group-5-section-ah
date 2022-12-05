@@ -23,7 +23,7 @@ feature_input <- selectInput(
 )
 
 tab_panel_chart3 <-tabPanel(
-    "Chart 3",
+    "Visualization 3",
     p("This is chart 3."), 
     fluidPage(
       titlePanel("Top 500 Movies"),

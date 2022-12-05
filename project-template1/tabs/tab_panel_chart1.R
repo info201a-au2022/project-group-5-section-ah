@@ -3,10 +3,10 @@
 library(shiny)
 
 tab_panel_chart1 <-tabPanel(
-  "Chart 1",
+  "Visualization 1",
   p("This is chart 1."),
   fluidPage(
-    titlePanel("Movies, Money & More"),
+    titlePanel("Visualization 1"),
     sidebarLayout(position = "right",
                   sidebarPanel(h4("Filters"),
                                sliderInput("whatyears", "Select a range of years",
