@@ -47,7 +47,8 @@ server <- function(input, output, session) {
     
     
     plot(data2$production_cost, data2$worldwide_gross, main = "Correlation Between Production Cost and Movie Gross",
-         xlab = "Movie Budget", ylab = "Movie Profit")
+         xlab = "Movie Budget", ylab = "Movie Profit", )
+    options(scipen=999)
   })
     
     example_data <- data.table(Title = netflix_info$Title, 'Country Availability' = netflix_info$Country.Availability,
