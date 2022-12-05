@@ -1,0 +1,13 @@
+name: movies_money_more
+title: movies_money_more
+username:
+account: clak
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7812342
+bundleId: 6591162
+url: https://clak.shinyapps.io/movies_money_more/
+when: 1670207663.5874
+lastSyncTime: 1670207663.58742
+asMultiple: FALSE
+asStatic: FALSE
