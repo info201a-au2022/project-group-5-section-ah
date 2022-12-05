@@ -39,6 +39,17 @@ server <- function(input, output) {
     # Return the completed plot
     p
   })
+  output$out_year <- renderText(input$whatyears)
+  
+  output$budget_gross <- renderPlot ({
+    top_500_movies <- read.csv("../data/top-500-movies.csv")
+    data2 <- top_500_movies[top_500_movies$year>=input$whatyears[1]&top_500_movies$year<=input$whatyears[2],]
+    
+    
+    plot(data2$production_cost, data2$worldwide_gross, main = "Correlation between Production Cost and Movie Gross",
+         xlab = "Movie Budget", ylab = "Movie Profit")
+  })
+  
 }
 
 

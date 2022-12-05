@@ -5,7 +5,8 @@ library(shinydashboard)
 library(data.table)
 
 tab_panel_chart2 <-tabPanel(
-  header <- dashboardHeader(title = "Search"),
+  "Chart 2",
+  p("This is chart 2."),
   
   sidebar <- dashboardSidebar(
     sidebarSearchForm(textId = "searchText", buttonId = "searchButton", 
