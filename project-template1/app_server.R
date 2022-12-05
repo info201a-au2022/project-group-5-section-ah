@@ -8,6 +8,8 @@
 #
 
 library(shiny)
+library(ggplot2)
+library(tidyverse)
 
 top_500_movies <- read_csv("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/data/top-500-movies.csv")
 
