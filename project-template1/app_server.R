@@ -42,7 +42,6 @@ server <- function(input, output, session) {
   output$out_year <- renderText(input$whatyears)
   
   output$budget_gross <- renderPlot ({
-    top_500_movies <- read.csv("../data/top-500-movies.csv")
     data2 <- top_500_movies[top_500_movies$year>=input$whatyears[1]&top_500_movies$year<=input$whatyears[2],]
     
     

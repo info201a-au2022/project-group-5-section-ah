@@ -10,12 +10,12 @@
 library(shiny)
 library(shinythemes)
 
-source("tabs/tab_panel_intro.R")
-source("tabs/tab_panel_chart1.R")
-source("tabs/tab_panel_chart2.R")
-source("tabs/tab_panel_chart3.R")
-source("tabs/tab_panel_summary.R")
-source("tabs/tab_panel_report.R")
+source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_intro.R")
+source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_chart1.R")
+source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_chart2.R")
+source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_chart3.R")
+source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_summary.R")
+source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_report.R")
 
 ui <- navbarPage(
   theme = shinytheme("yeti"),
