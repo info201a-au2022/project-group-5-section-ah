@@ -13,7 +13,16 @@ tab_panel_summary <-tabPanel(
   h1(strong("Summary Findings")),
   
   h2("Production Cost vs. Movie Gross"),
-  p("Put summary findings for Visual 1. Then copy paste it under ‘Findings’ in the report.md"),
+  img(src = 'chart1.png', style="width: 600px"),
+  p("After examining the Visualization and its information, we can see that the movie with the highest production cost is 
+      Avengers: Endgame, which is also the second most grossed movie. 
+      Additionally, the movie titled: Avatar, had a production cost/budget of 
+      only half that of Avengers: Endgame, but still managed to gross more money.
+      This means that the worldwide gross of a movie may not be as tied to the 
+      production cost of a movie as we had initially thought. Another factor that 
+      adds to the correlation between production cost and movie gross, is movie genre.
+      For example, it takes a far larger budget to create a visually moving Action movie in comparison to a Drama."
+  ),
   
   h2("Movie Finder"),
   p("By using this search function and table visualization, it becomes clear 

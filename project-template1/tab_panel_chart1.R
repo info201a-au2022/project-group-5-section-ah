@@ -20,11 +20,9 @@ tab_panel_chart1 <-tabPanel(
       comparison is meant to describe the size of correlation between the 
       amount a director decided to spend on a movie and how much that investment
       (or lack of investment) affected the overall profitability of said movie 
-      title. As we can see, the movie with the highest production cost is 
-      Avengers: Endgame, which is also the second most grossed movie. 
-      Additionally, the movie titled: Avatar, had a production budget/cost of 
-      only half that of Avengers: Endgame, but still managed to gross more money.
-      This means that the worldwide gross of a movie may not be as tied to the 
-      production cost of a movie as we had initially thought.")
+      title. One thing that is interesting to see is that while filtering from 1990 to 2000,
+      you can see that the highest movie budget at the time was around $200 million, but if
+      you filter for 2000 to present (2022), movie budgets have gone up to $400 million."
+    )
   )
 )

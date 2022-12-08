@@ -76,6 +76,14 @@ Two datasets are stored on the Kaggle website, a trustworthy website which store
 ## Findings
 >How does the movie production budget correlate with the overall success of the movie?
 
+<br/> After examining the Visualization and its information, we can see that the movie with the            highest production cost is Avengers: Endgame, which is also the second most grossed movie. 
+      Additionally, the movie titled: Avatar, had a production cost/budget of 
+      only half that of Avengers: Endgame, but still managed to gross more money.
+      This means that the worldwide gross of a movie may not be as tied to the 
+      production cost of a movie as we had initially thought. Another factor that 
+      adds to the correlation between production cost and movie gross, is movie genre.
+      For example, it takes a far larger budget to create a visually moving Action movie in                comparison to a Drama.
+
 > What are some discrepancies between movie language and the countries it is available in?
 
 <br/> By using this search function and table visualization, it becomes clear 
