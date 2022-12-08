@@ -16,9 +16,7 @@ tab_panel_chart2 <-tabPanel(
                       label = "Search dataset", icon = shiny::icon("search"))
   ),
   body <- dashboardBody(tableOutput("filtered_table")),
-  
-  #ui <- dashboardPage(title = 'Search', header, sidebar, body)
-)
+  )
 )
 
 
