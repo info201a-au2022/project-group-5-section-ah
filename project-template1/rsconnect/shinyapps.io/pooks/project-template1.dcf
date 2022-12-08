@@ -1,0 +1,14 @@
+name: project-template1
+title: project-template1
+username:
+account: pooks
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7849491
+bundleId: 6611358
+url: https://pooks.shinyapps.io/project-template1/
+when: 1670519535.51692
+lastSyncTime: 1670519535.51694
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: tab_panel_chart2.R
