@@ -1,14 +1,8 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
+# app_server.R
 
 library(shiny)
 library(ggplot2)
+library(plotly)
 library(tidyverse)
 library(shinydashboard)
 library(data.table)
@@ -18,27 +12,28 @@ top_500_movies <- read_csv("../data/top-500-movies.csv")
 netflix_info <- read.csv("../data/netflix-rotten-tomatoes-metacritic-imdbcsv.csv")
 
 server <- function(input, output, session) {
-  output$plot <- renderPlot({
+  # Chart 3
+  output$plot <- renderPlotly({
     plot_data <- top_500_movies %>% 
       filter(worldwide_gross > input$ww_gross_choice[1], worldwide_gross < input$ww_gross_choice[2])
     
-    # ggplot2 scatterplot with user select column- xaxis, ww gross- yaxis
-    # genre- color. Save plot as a variable
     p <- ggplot(
       data = plot_data,
       mapping = aes_string(x = input$feature, y = "worldwide_gross", color = "genre")
     ) +
-      geom_point()
-    
-    # If trendline checkbox is selected, add a 'geom_smooth' line to plot
+      geom_point(alpha = .5) +
+      labs(
+        title = "Worldwide Movie Gross vs. Selected Feature (1990-2020)",
+        y = "Worldwide Gross (U.S. dollars)"
+      )
     
     if (input$smooth) {
       p <- p + geom_smooth(se = FALSE)
     }
     
-    # Return the completed plot
     p
   })
+  # Chart 1
   output$out_year <- renderText(input$whatyears)
   
   output$budget_gross <- renderPlot ({
@@ -49,7 +44,7 @@ server <- function(input, output, session) {
          xlab = "Movie Budget", ylab = "Movie Profit", )
     options(scipen=999)
   })
-    
+  # Chart 2  
     example_data <- data.table(Title = netflix_info$Title, 'Country Availability' = netflix_info$Country.Availability,
                                Language = netflix_info$Languages)
     

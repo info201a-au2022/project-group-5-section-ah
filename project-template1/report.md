@@ -6,7 +6,7 @@ Parker Huang (psh1@uw.edu)
 *INFO-201: Technical Foundations of Informatics*  
 *The Information School*   
 *University of Washington*      
-*Winter 2022*  
+*Autumn 2022*  
 *Code Name: MMM*
 
 ### Abstract
@@ -42,22 +42,21 @@ Miller, Daniel. “Does a Higher Budget Make a Movie More Successful?” Every M
 Simonton, D. K. (2005). Cinematic Creativity and Production Budgets: Does Money Make the Movie? The Journal of Creative Behavior, 39(1), 1–15.
 
 ## Research questions
-> How does the budget of a movie correlate with the overall success of said movie?
+> How does the movie production budget correlate with the overall success of the movie?
 
 We want to know if there is a noticeable increase in viewing numbers, gross income, and reviews in relation to the budget of a given movie as compared to a movie with a lesser budget.
 
-> Does a specific actor's presence correlate with the box office revenues of the movies they star in?
+> What are some discrepancies between movie language and the countries it is available in?
 
-We want to find out whether specific actors star exclusively in successful, profitable, and highly rated movies.
+We strive to discover if the language the movie or show is in is available within
+the country that speaks that language. Although it might seem obvious, this is
+not always guaranteed. 
 
-This question is important in figuring out if it is clear that specific actors boost the viewing numbers of the films they are in.
+> Is there correlation between worldwide movie gross and various factors(rank, runtime, production cost)?
 
-By locating/identifying these actors, we can also identify which ones are more valuable and will therefore increase the budget of a movie.
-
-> How do the total profit and viewing numbers of a movie relate to its sequel?
-
-We want to know if the box office numbers are usually higher for the sequel, given the 1st movie created the exposure, following, and fanbase.
-We also want to understand how the budget of a sequel movie compares to its preceding movie.
+We hope to examine possible factors that increase worldwide gross and discover 
+possible correlation between the two. This is crucial for the movie industry 
+to consider when predicting the success and value of the movie before production.
 
 ## The Dataset
 Our largest dataset includes general information about over 15,000 movies. While it does not include information about movie’s budgets and grosses, it does include reviews from IMDb, Rotten Tomatoes, Metacritic, and awards. By using our second and third dataset which includes the top 500 movies by production budget and box office revenue by year in the U.S. and Canada, we can answer our question by comparing the movie budgets and grosses with reviews.
@@ -74,6 +73,29 @@ Two datasets were not funded. The other was possibly funded by IMDb but there is
 
 Two datasets are stored on the Kaggle website, a trustworthy website which stores various datasets for various topics. The other dataset is stored on Statista, another credible website which stores datasets.
 
+## Findings
+*How does the movie production budget correlate with the overall success of the movie?*
+
+*What are some discrepancies between movie language and the countries it is available in?*
+
+*Is there correlation between worldwide movie gross and various factors(rank, runtime, production cost)?* <br/> Overall, there is positive correlation between worldwide movie gross and the features of interest. This is feasible as higher movie rank and domestic gross naturally increases the worldwide gross. Higher production cost also tends to have higher worldwide gross. In most cases gross exceeded production cost. Common run times are between 100-140 minutes, and the most popular genres are 'Action' and 'Adventure'."
+
+## Discussion
+These findings allow the movie industry to compile and use them to create a successful movie.
+Production budget helps with determining how much should used for a profitable movie
+based on past statistics. Discrepancies between movie language and available countries is helpful
+for targeting a certain audience when making the movie. Lastly, factors that influence worldwide 
+gross helps predict the success and value of the movie globally.
+
+## Conclusion
+As long as the movie production process is, the outcome is grand. Many factors are taken
+into account and past statistics are used to predict an accurate model of the movie success.
+Even off screen and as we live our daily lives there are still countless movie directors, actors, 
+technicians, editors, designers, and statisticians scrambling to get the next best movie in theaters.
+
+## Acknowledgments
+We would like to express our gratitude and appreciation to INFO201, TAs and others 
+who helped in completing this project.
 
 ## References 
 Gupta, Ashish. “Latest Netflix Data with 26+ Joined Attributes.” Kaggle, 27 Apr. 2021, https://www.kaggle.com/datasets/ashishgup/netflix-rotten-tomatoes-metacritic-imdb.
@@ -81,8 +103,3 @@ Gupta, Ashish. “Latest Netflix Data with 26+ Joined Attributes.” Kaggle, 27 
 Harrison, Mitchell. “Top 500 Movies by Production Budget.” Kaggle, 15 Oct. 2022, https://www.kaggle.com/datasets/mitchellharrison/top-500-movies-budget.
 
 Navarro, José Gabriel. “Box Office Revenue in the U.S. and Canada 2021.” Statista, 16 Mar. 2022, https://www.statista.com/statistics/187069/north-american-box-office-gross-revenue-since-1980
-
-
-
-
-

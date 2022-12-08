@@ -6,11 +6,11 @@ tab_panel_intro <-tabPanel(
     "Introduction",
     
     h1(strong("Introduction")),
-    p("INFO-201A"),
-    p("Autumn 2022"),
-    p("Group AH"),
+    p(em("INFO-201A")),
+    p(em("Autumn 2022")),
+    p(em("Group AH")),
     
-    img(src = 'movie.jpg', style="width: 600px"),
+    img(src = 'IM.jpg', style="width: 800px", align = "center"),
     
     h2("Overview"),
     p("Movies are one the major forms of digital entertainment.
@@ -28,9 +28,9 @@ tab_panel_intro <-tabPanel(
     multiple visuals, we hope to see a correlation between movie budget and rating."),
     
     h2("Research Questions"),
-    p("1. How does the budget of a movie correlate with the overall success of said movie?"),
-    p("2. Does a specific actor's presence correlate with the box office revenues of the movies they star in?"),
-    p("3. How do the total profit and viewing numbers of a movie relate to its sequel?")
+    p("1. How does the movie production budget correlate with the overall success of the movie?"),
+    p("2. What are some discrepancies between movie language and the countries it is available in?"),
+    p("3. Is there correlation between worldwide movie gross and various factors(rank, runtime, production cost)?")
     
     
 )
