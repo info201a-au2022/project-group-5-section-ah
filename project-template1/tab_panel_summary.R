@@ -16,7 +16,12 @@ tab_panel_summary <-tabPanel(
   p("Put summary findings for Visual 1. Then copy paste it under ‘Findings’ in the report.md"),
   
   h2("Movie Finder"),
-  p("Put summary findings for Visual 2. Then copy paste it under ‘Findings’ in the report.md"),
+  p("By using this search function and table visualization, it becomes clear 
+    that some countries are treated more unfairly than others. Some movies in 
+    a certain language are not available in the language's main country. This 
+    can be due to government corruption or bias within Netflix. Although some 
+    movies/TV shows were like this, most were still available in the language's
+    main countries."),
   
   h2("Worldwide Movie Gross"),
   img(src = 'chart3.png', style="width: 600px"),

@@ -8,8 +8,8 @@ library(shinydashboard)
 library(data.table)
 
 
-top_500_movies <- read_csv("../data/top-500-movies.csv")
-netflix_info <- read.csv("../data/netflix-rotten-tomatoes-metacritic-imdbcsv.csv")
+top_500_movies <- read_csv("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/data/top-500-movies.csv")
+netflix_info <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/data/netflix-rotten-tomatoes-metacritic-imdbcsv.csv")
 
 server <- function(input, output, session) {
   # Chart 3

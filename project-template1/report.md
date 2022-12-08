@@ -74,21 +74,30 @@ Two datasets were not funded. The other was possibly funded by IMDb but there is
 Two datasets are stored on the Kaggle website, a trustworthy website which stores various datasets for various topics. The other dataset is stored on Statista, another credible website which stores datasets.
 
 ## Findings
-*How does the movie production budget correlate with the overall success of the movie?*
+>How does the movie production budget correlate with the overall success of the movie?
 
-*What are some discrepancies between movie language and the countries it is available in?*
+> What are some discrepancies between movie language and the countries it is available in?
 
-*Is there correlation between worldwide movie gross and various factors(rank, runtime, production cost)?* <br/> Overall, there is positive correlation between worldwide movie gross and the features of interest. This is feasible as higher movie rank and domestic gross naturally increases the worldwide gross. Higher production cost also tends to have higher worldwide gross. In most cases gross exceeded production cost. Common run times are between 100-140 minutes, and the most popular genres are 'Action' and 'Adventure'."
+<br/> By using this search function and table visualization, it becomes clear 
+    that some countries are treated more unfairly than others. Some movies in 
+    a certain language are not available in the language's main country. This 
+    can be due to government corruption or bias within Netflix. Although some 
+    movies/TV shows were like this, most were still available in the language's
+    main countries.
+    
+> Is there correlation between worldwide movie gross and various factors(rank, runtime, production cost)?
+
+<br/> Overall, there is positive correlation between worldwide movie gross and the features of interest. This is feasible as higher movie rank and domestic gross naturally increases the worldwide gross. Higher production cost also tends to have higher worldwide gross. In most cases gross exceeded production cost. Common run times are between 100-140 minutes, and the most popular genres are 'Action' and 'Adventure'."
 
 ## Discussion
 These findings allow the movie industry to compile and use them to create a successful movie.
 Production budget helps with determining how much should used for a profitable movie
 based on past statistics. Discrepancies between movie language and available countries is helpful
-for targeting a certain audience when making the movie. Lastly, factors that influence worldwide 
+for targeting a certain audience when making the movie. These discrepancies may also reveal corruption within a countries government, or bias within Netflix themselves. Lastly, factors that influence worldwide 
 gross helps predict the success and value of the movie globally.
 
 ## Conclusion
-As long as the movie production process is, the outcome is grand. Many factors are taken
+As long as the movie production process lasts, the outcome is grand. Many factors are taken
 into account and past statistics are used to predict an accurate model of the movie success.
 Even off screen and as we live our daily lives there are still countless movie directors, actors, 
 technicians, editors, designers, and statisticians scrambling to get the next best movie in theaters.

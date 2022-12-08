@@ -1,0 +1,13 @@
+name: moviesmoneymore
+title: moviesmoneymore
+username:
+account: pooks
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7849443
+bundleId: 6611339
+url: https://pooks.shinyapps.io/moviesmoneymore/
+when: 1670519280.27269
+lastSyncTime: 1670519280.27271
+asMultiple: FALSE
+asStatic: FALSE
