@@ -10,7 +10,7 @@ tab_panel_intro <-tabPanel(
     p("Autumn 2022"),
     p("Group AH"),
     
-    img(src = 'movie.jpg', style="width: 700px"),
+    img(src = 'movie.jpg', style="width: 600px"),
     
     h2("Overview"),
     p("Movies are one the major forms of digital entertainment.
@@ -29,8 +29,8 @@ tab_panel_intro <-tabPanel(
     
     h2("Research Questions"),
     p("1. How does the budget of a movie correlate with the overall success of said movie?"),
-    p("Does a specific actor's presence correlate with the box office revenues of the movies they star in?"),
-    p("How do the total profit and viewing numbers of a movie relate to its sequel?")
+    p("2. Does a specific actor's presence correlate with the box office revenues of the movies they star in?"),
+    p("3. How do the total profit and viewing numbers of a movie relate to its sequel?")
     
     
 )

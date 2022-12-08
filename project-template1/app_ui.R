@@ -10,31 +10,23 @@
 library(shiny)
 library(shinythemes)
 
-source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_intro.R")
-source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_chart1.R")
-source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_chart2.R")
-source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_chart3.R")
-source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_summary.R")
-source("https://raw.githubusercontent.com/info201a-au2022/project-group-5-section-ah/main/project-template1/tabs/tab_panel_report.R")
+source("tab_panel_intro.R")
+source("tab_panel_chart1.R")
+source("tab_panel_chart2.R")
+source("tab_panel_chart3.R")
+source("tab_panel_summary.R")
+source("tab_panel_report.R")
 
 ui <- navbarPage(
-  theme = shinytheme("yeti"),
+  theme = shinytheme("cosmo"),
   title = "Movies, Money, & More",
   position = "fixed-top",
-
-  # A simple header
-  header = list(
-    tags$style(type = "text/css", "body {padding-top: 70px;}"),
-    hr(),
-    HTML(""),
-    hr()
-  ),
 
   # A simple footer
   footer = list(
     tags$style(type = "text/css", "body {padding-top: 70px;}"),
     hr(),
-    HTML(""),
+    HTML("INFO-201A Autumn 2022 Group AH-5"),
     hr()
   ),
 
